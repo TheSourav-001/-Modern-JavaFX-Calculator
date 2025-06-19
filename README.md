@@ -1,4 +1,5 @@
-# Modern JavaFX Calculator
+# Modern JavaFX Calculator 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
 
