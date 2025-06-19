@@ -1,0 +1,88 @@
+.root {
+    -fx-background-color: #2d3436;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #3d4547;
+    -fx-border-width: 1;
+}
+
+#display {
+    -fx-font-size: 28px;
+    -fx-background-color: #3d4547;
+    -fx-border-color: #4d5557;
+    -fx-border-width: 1px;
+    -fx-padding: 15px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-pref-height: 70px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+    -fx-text-fill: #ffffff;
+}
+
+.calc-button {
+    -fx-font-size: 20px;
+    -fx-background-radius: 16px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0.1, 0, 2);
+    -fx-border-color: transparent;
+    -fx-transition: all 0.2s ease;
+}
+
+.number-btn {
+    -fx-background-color: #3d4547;
+    -fx-text-fill: #ffffff;
+}
+
+.number-btn:hover {
+    -fx-background-color: #4d5557;
+}
+
+.operator-btn {
+    -fx-background-color: #0984e3;
+    -fx-text-fill: white;
+}
+
+.operator-btn:hover {
+    -fx-background-color: #0779cf;
+}
+
+.equals-btn {
+    -fx-background-color: #00b894;
+    -fx-text-fill: white;
+}
+
+.equals-btn:hover {
+    -fx-background-color: #00a884;
+}
+
+.clear-btn {
+    -fx-background-color: #d63031;
+    -fx-text-fill: white;
+}
+
+.clear-btn:hover {
+    -fx-background-color: #c53030;
+}
+
+#close-btn, #minimize-btn, #theme-btn {
+    -fx-font-size: 14px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #aaaaaa;
+    -fx-padding: 0 5 0 5;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+    -fx-background-radius: 15;
+}
+
+#close-btn:hover {
+    -fx-background-color: #d63031;
+    -fx-text-fill: white;
+}
+
+#minimize-btn:hover {
+    -fx-background-color: #3d4547;
+}
+
+#theme-btn:hover {
+    -fx-background-color: #3d4547;
+}
